@@ -191,8 +191,8 @@ const questions = [
   },
   {
     question: "Apa arti dari 自動車 (じどうしゃ) - Jidousha?",
-    options: ["Sepeda motor", "Kendaraan roda empat", "Kereta api", "Pesawat"],
-    answer: "Kendaraan roda empat",
+    options: ["Sepeda motor", "Mobil", "Kereta api", "Pesawat"],
+    answer: "Mobil",
   },
   {
     question: "Apa arti dari 交通 (こうつう) - Koutsuu?",
@@ -619,508 +619,413 @@ const questions = [
     ],
     answer: "Kaos kaki tradisional",
   },
-  // Baris A I U E O
   {
-    question: "Huruf Hiragana apa ini: あ",
-    options: ["A", "I", "U", "E"],
-    answer: "A",
+    question: "Huruf Hiragana apa ini: ぬ",
+    options: ["Ne", "Nu", "Ni", "Na"],
+    answer: "Nu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ろ",
+    options: ["Ra", "Ro", "Ri", "Re"],
+    answer: "Ro",
+  },
+  {
+    question: "Huruf Hiragana apa ini: す",
+    options: ["So", "Shi", "Su", "Se"],
+    answer: "Su",
+  },
+  {
+    question: "Huruf Hiragana apa ini: は",
+    options: ["Hi", "Ho", "Ha", "He"],
+    answer: "Ha",
+  },
+  {
+    question: "Huruf Hiragana apa ini: や",
+    options: ["Yi", "Yo", "Yu", "Ya"],
+    answer: "Ya",
+  },
+  {
+    question: "Huruf Hiragana apa ini: め",
+    options: ["Mo", "Me", "Mu", "Ma"],
+    answer: "Me",
+  },
+  {
+    question: "Huruf Hiragana apa ini: き",
+    options: ["Chi", "Ni", "Ki", "Sa"],
+    answer: "Ki",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ん",
+    options: ["Ne", "No", "N", "Na"],
+    answer: "N",
+  },
+  {
+    question: "Huruf Hiragana apa ini: と",
+    options: ["Chi", "To", "Ta", "Te"],
+    answer: "To",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ひ",
+    options: ["Ho", "He", "Hi", "Ha"],
+    answer: "Hi",
+  },
+  {
+    question: "Huruf Hiragana apa ini: わ",
+    options: ["Wi", "We", "Wo", "Wa"],
+    answer: "Wa",
+  },
+  {
+    question: "Huruf Hiragana apa ini: む",
+    options: ["Me", "Mu", "Ma", "Mi"],
+    answer: "Mu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: く",
+    options: ["Ke", "Ko", "Ku", "Ka"],
+    answer: "Ku",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ち",
+    options: ["Te", "To", "Chi", "Ta"],
+    answer: "Chi",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ゆ",
+    options: ["Yi", "Yu", "Ya", "Yo"],
+    answer: "Yu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ほ",
+    options: ["Hi", "He", "Ho", "Ha"],
+    answer: "Ho",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ら",
+    options: ["Re", "Ra", "Ri", "Ru"],
+    answer: "Ra",
+  },
+  {
+    question: "Huruf Hiragana apa ini: こ",
+    options: ["Ki", "Ku", "Ko", "Ka"],
+    answer: "Ko",
+  },
+  {
+    question: "Huruf Hiragana apa ini: て",
+    options: ["To", "Chi", "Te", "Ta"],
+    answer: "Te",
+  },
+  {
+    question: "Huruf Hiragana apa ini: え",
+    options: ["A", "U", "E", "I"],
+    answer: "E",
+  },
+  {
+    question: "Huruf Hiragana apa ini: を",
+    options: ["Wi", "We", "Wo", "Wa"],
+    answer: "Wo",
+  },
+  {
+    question: "Huruf Hiragana apa ini: さ",
+    options: ["Se", "Sa", "Shi", "Su"],
+    answer: "Sa",
+  },
+  {
+    question: "Huruf Hiragana apa ini: も",
+    options: ["Mu", "Me", "Mo", "Ma"],
+    answer: "Mo",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ふ",
+    options: ["He", "Ho", "Ha", "Fu"],
+    answer: "Fu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: れ",
+    options: ["Ra", "Ri", "Re", "Ru"],
+    answer: "Re",
+  },
+  {
+    question: "Huruf Hiragana apa ini: か",
+    options: ["Ki", "Ku", "Ka", "Ke"],
+    answer: "Ka",
+  },
+  {
+    question: "Huruf Hiragana apa ini: な",
+    options: ["Ni", "Nu", "Ne", "Na"],
+    answer: "Na",
+  },
+  {
+    question: "Huruf Hiragana apa ini: せ",
+    options: ["So", "Shi", "Se", "Su"],
+    answer: "Se",
+  },
+  {
+    question: "Huruf Hiragana apa ini: り",
+    options: ["Ru", "Re", "Ri", "Ra"],
+    answer: "Ri",
+  },
+  {
+    question: "Huruf Hiragana apa ini: よ",
+    options: ["Yu", "Yi", "Yo", "Ya"],
+    answer: "Yo",
+  },
+  {
+    question: "Huruf Hiragana apa ini: た",
+    options: ["To", "Chi", "Ta", "Te"],
+    answer: "Ta",
   },
   {
     question: "Huruf Hiragana apa ini: い",
-    options: ["I", "A", "U", "E"],
+    options: ["A", "U", "E", "I"],
     answer: "I",
   },
   {
     question: "Huruf Hiragana apa ini: う",
-    options: ["U", "A", "I", "E"],
+    options: ["E", "A", "U", "I"],
     answer: "U",
   },
   {
-    question: "Huruf Hiragana apa ini: え",
-    options: ["E", "A", "I", "U"],
-    answer: "E",
-  },
-  {
     question: "Huruf Hiragana apa ini: お",
-    options: ["O", "A", "I", "U"],
+    options: ["I", "U", "O", "A"],
     answer: "O",
-  },
-
-  // Baris KA
-  {
-    question: "Huruf Hiragana apa ini: か",
-    options: ["Ka", "Ke", "Ko", "Ku"],
-    answer: "Ka",
-  },
-  {
-    question: "Huruf Hiragana apa ini: き",
-    options: ["Ki", "Sa", "Chi", "Ni"],
-    answer: "Ki",
-  },
-  {
-    question: "Huruf Hiragana apa ini: く",
-    options: ["Ku", "Ka", "Ki", "Ke"],
-    answer: "Ku",
-  },
-  {
-    question: "Huruf Hiragana apa ini: け",
-    options: ["Ke", "Ka", "Ki", "Ku"],
-    answer: "Ke",
-  },
-  {
-    question: "Huruf Hiragana apa ini: こ",
-    options: ["Ko", "Ka", "Ki", "Ku"],
-    answer: "Ko",
-  },
-
-  // Baris SA
-  {
-    question: "Huruf Hiragana apa ini: さ",
-    options: ["Sa", "Shi", "Su", "Se"],
-    answer: "Sa",
-  },
-  {
-    question: "Huruf Hiragana apa ini: し",
-    options: ["Shi", "Su", "Se", "So"],
-    answer: "Shi",
-  },
-  {
-    question: "Huruf Hiragana apa ini: す",
-    options: ["Su", "Se", "So", "Shi"],
-    answer: "Su",
-  },
-  {
-    question: "Huruf Hiragana apa ini: せ",
-    options: ["Se", "So", "Su", "Sa"],
-    answer: "Se",
-  },
-  {
-    question: "Huruf Hiragana apa ini: そ",
-    options: ["So", "Sa", "Se", "Shi"],
-    answer: "So",
-  },
-
-  // Baris TA
-  {
-    question: "Huruf Hiragana apa ini: た",
-    options: ["Ta", "Te", "To", "Chi"],
-    answer: "Ta",
-  },
-  {
-    question: "Huruf Hiragana apa ini: ち",
-    options: ["Chi", "Ta", "Te", "To"],
-    answer: "Chi",
-  },
-  {
-    question: "Huruf Hiragana apa ini: つ",
-    options: ["Tsu", "Ta", "Te", "To"],
-    answer: "Tsu",
-  },
-  {
-    question: "Huruf Hiragana apa ini: て",
-    options: ["Te", "Ta", "To", "Chi"],
-    answer: "Te",
-  },
-  {
-    question: "Huruf Hiragana apa ini: と",
-    options: ["To", "Ta", "Te", "Chi"],
-    answer: "To",
-  },
-
-  // Baris NA
-  {
-    question: "Huruf Hiragana apa ini: な",
-    options: ["Na", "Ni", "Nu", "Ne"],
-    answer: "Na",
-  },
-  {
-    question: "Huruf Hiragana apa ini: に",
-    options: ["Ni", "Na", "Nu", "Ne"],
-    answer: "Ni",
-  },
-  {
-    question: "Huruf Hiragana apa ini: ぬ",
-    options: ["Nu", "Na", "Ni", "Ne"],
-    answer: "Nu",
   },
   {
     question: "Huruf Hiragana apa ini: ね",
-    options: ["Ne", "Na", "Ni", "Nu"],
+    options: ["Nu", "Ne", "Na", "Ni"],
     answer: "Ne",
   },
   {
-    question: "Huruf Hiragana apa ini: の",
-    options: ["No", "Na", "Ni", "Nu"],
-    answer: "No",
+    question: "Huruf Hiragana apa ini: そ",
+    options: ["Shi", "Se", "So", "Su"],
+    answer: "So",
   },
-
-  // Baris HA
-  {
-    question: "Huruf Hiragana apa ini: は",
-    options: ["Ha", "He", "Ho", "Hi"],
-    answer: "Ha",
-  },
-  {
-    question: "Huruf Hiragana apa ini: ひ",
-    options: ["Hi", "Ha", "He", "Ho"],
-    answer: "Hi",
-  },
-  {
-    question: "Huruf Hiragana apa ini: ふ",
-    options: ["Fu", "Ha", "He", "Ho"],
-    answer: "Fu",
-  },
-  {
-    question: "Huruf Hiragana apa ini: へ",
-    options: ["He", "Ha", "Hi", "Ho"],
-    answer: "He",
-  },
-  {
-    question: "Huruf Hiragana apa ini: ほ",
-    options: ["Ho", "Ha", "Hi", "He"],
-    answer: "Ho",
-  },
-
-  // Baris MA
   {
     question: "Huruf Hiragana apa ini: ま",
-    options: ["Ma", "Mi", "Mu", "Me"],
+    options: ["Mu", "Ma", "Mi", "Me"],
     answer: "Ma",
   },
   {
-    question: "Huruf Hiragana apa ini: み",
-    options: ["Mi", "Ma", "Mu", "Me"],
-    answer: "Mi",
-  },
-  {
-    question: "Huruf Hiragana apa ini: む",
-    options: ["Mu", "Ma", "Mi", "Me"],
-    answer: "Mu",
-  },
-  {
-    question: "Huruf Hiragana apa ini: め",
-    options: ["Me", "Mo", "Mu", "Ma"],
-    answer: "Me",
-  },
-  {
-    question: "Huruf Hiragana apa ini: も",
-    options: ["Mo", "Ma", "Mi", "Me"],
-    answer: "Mo",
-  },
-
-  // Baris YA
-  {
-    question: "Huruf Hiragana apa ini: や",
-    options: ["Ya", "Yu", "Yo", "Yi"],
-    answer: "Ya",
-  },
-  {
-    question: "Huruf Hiragana apa ini: ゆ",
-    options: ["Yu", "Ya", "Yo", "Yi"],
-    answer: "Yu",
-  },
-  {
-    question: "Huruf Hiragana apa ini: よ",
-    options: ["Yo", "Ya", "Yu", "Yi"],
-    answer: "Yo",
-  },
-
-  // Baris RA
-  {
-    question: "Huruf Hiragana apa ini: ら",
-    options: ["Ra", "Ri", "Ru", "Re"],
-    answer: "Ra",
-  },
-  {
-    question: "Huruf Hiragana apa ini: り",
-    options: ["Ri", "Ra", "Ru", "Re"],
-    answer: "Ri",
-  },
-  {
     question: "Huruf Hiragana apa ini: る",
-    options: ["Ru", "Ra", "Ri", "Re"],
+    options: ["Ri", "Re", "Ru", "Ra"],
     answer: "Ru",
   },
   {
-    question: "Huruf Hiragana apa ini: れ",
-    options: ["Re", "Ra", "Ri", "Ru"],
-    answer: "Re",
+    question: "Huruf Hiragana apa ini: し",
+    options: ["Su", "Se", "So", "Shi"],
+    answer: "Shi",
   },
   {
-    question: "Huruf Hiragana apa ini: ろ",
-    options: ["Ro", "Ra", "Re", "Ri"],
-    answer: "Ro",
+    question: "Huruf Hiragana apa ini: の",
+    options: ["Na", "Ni", "No", "Ne"],
+    answer: "No",
+  },
+  {
+    question: "Huruf Hiragana apa ini: け",
+    options: ["Ka", "Ki", "Ke", "Ku"],
+    answer: "Ke",
+  },
+  {
+    question: "Huruf Hiragana apa ini: つ",
+    options: ["To", "Ta", "Tsu", "Te"],
+    answer: "Tsu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: み",
+    options: ["Me", "Ma", "Mi", "Mu"],
+    answer: "Mi",
   },
 
-  // Baris WA
   {
-    question: "Huruf Hiragana apa ini: わ",
-    options: ["Wa", "Wo", "Wi", "We"],
+    question: "Huruf Katakana apa ini: ヌ",
+    options: ["Ne", "Nu", "Ni", "Na"],
+    answer: "Nu",
+  },
+  {
+    question: "Huruf Katakana apa ini: ロ",
+    options: ["Ra", "Ro", "Ri", "Re"],
+    answer: "Ro",
+  },
+  {
+    question: "Huruf Katakana apa ini: ス",
+    options: ["So", "Shi", "Su", "Se"],
+    answer: "Su",
+  },
+  {
+    question: "Huruf Katakana apa ini: ハ",
+    options: ["Hi", "Ho", "Ha", "He"],
+    answer: "Ha",
+  },
+  {
+    question: "Huruf Katakana apa ini: ヤ",
+    options: ["Yi", "Yo", "Yu", "Ya"],
+    answer: "Ya",
+  },
+  {
+    question: "Huruf Katakana apa ini: メ",
+    options: ["Mo", "Me", "Mu", "Ma"],
+    answer: "Me",
+  },
+  {
+    question: "Huruf Katakana apa ini: キ",
+    options: ["Chi", "Ni", "Ki", "Sa"],
+    answer: "Ki",
+  },
+  {
+    question: "Huruf Katakana apa ini: ン",
+    options: ["Ne", "No", "N", "Na"],
+    answer: "N",
+  },
+  {
+    question: "Huruf Katakana apa ini: ト",
+    options: ["Chi", "To", "Ta", "Te"],
+    answer: "To",
+  },
+  {
+    question: "Huruf Katakana apa ini: ヒ",
+    options: ["Ho", "He", "Hi", "Ha"],
+    answer: "Hi",
+  },
+  {
+    question: "Huruf Katakana apa ini: ワ",
+    options: ["Wi", "We", "Wo", "Wa"],
     answer: "Wa",
   },
   {
-    question: "Huruf Hiragana apa ini: を",
-    options: ["Wo", "Wa", "Wi", "We"],
-    answer: "Wo",
+    question: "Huruf Katakana apa ini: ム",
+    options: ["Me", "Mu", "Ma", "Mi"],
+    answer: "Mu",
   },
-
-  // Baris N
   {
-    question: "Huruf Hiragana apa ini: ん",
-    options: ["N", "Na", "Ne", "No"],
-    answer: "N",
+    question: "Huruf Katakana apa ini: ク",
+    options: ["Ke", "Ko", "Ku", "Ka"],
+    answer: "Ku",
   },
-  // Baris A I U E O
+  {
+    question: "Huruf Katakana apa ini: テ",
+    options: ["To", "Chi", "Te", "Ta"],
+    answer: "Te",
+  },
   {
     question: "Huruf Katakana apa ini: ア",
-    options: ["A", "I", "U", "E"],
+    options: ["E", "A", "I", "U"],
     answer: "A",
   },
   {
+    question: "Huruf Katakana apa ini: ヲ",
+    options: ["Wi", "We", "Wo", "Wa"],
+    answer: "Wo",
+  },
+  {
+    question: "Huruf Katakana apa ini: サ",
+    options: ["Se", "Sa", "Shi", "Su"],
+    answer: "Sa",
+  },
+  {
+    question: "Huruf Katakana apa ini: モ",
+    options: ["Mu", "Me", "Mo", "Ma"],
+    answer: "Mo",
+  },
+  {
+    question: "Huruf Katakana apa ini: フ",
+    options: ["He", "Ho", "Ha", "Fu"],
+    answer: "Fu",
+  },
+  {
+    question: "Huruf Katakana apa ini: レ",
+    options: ["Ra", "Ri", "Re", "Ru"],
+    answer: "Re",
+  },
+  {
+    question: "Huruf Katakana apa ini: カ",
+    options: ["Ki", "Ku", "Ka", "Ke"],
+    answer: "Ka",
+  },
+  {
+    question: "Huruf Katakana apa ini: ナ",
+    options: ["Ni", "Nu", "Ne", "Na"],
+    answer: "Na",
+  },
+  {
+    question: "Huruf Katakana apa ini: セ",
+    options: ["So", "Shi", "Se", "Su"],
+    answer: "Se",
+  },
+  {
+    question: "Huruf Katakana apa ini: リ",
+    options: ["Ru", "Re", "Ri", "Ra"],
+    answer: "Ri",
+  },
+  {
+    question: "Huruf Katakana apa ini: ヨ",
+    options: ["Yu", "Yi", "Yo", "Ya"],
+    answer: "Yo",
+  },
+  {
+    question: "Huruf Katakana apa ini: タ",
+    options: ["To", "Chi", "Ta", "Te"],
+    answer: "Ta",
+  },
+  {
     question: "Huruf Katakana apa ini: イ",
-    options: ["I", "A", "U", "E"],
+    options: ["A", "U", "E", "I"],
     answer: "I",
   },
   {
     question: "Huruf Katakana apa ini: ウ",
-    options: ["U", "A", "I", "E"],
+    options: ["E", "A", "U", "I"],
     answer: "U",
   },
   {
-    question: "Huruf Katakana apa ini: エ",
-    options: ["E", "A", "I", "U"],
-    answer: "E",
-  },
-  {
     question: "Huruf Katakana apa ini: オ",
-    options: ["O", "A", "I", "U"],
+    options: ["I", "U", "O", "A"],
     answer: "O",
-  },
-
-  // Baris KA
-  {
-    question: "Huruf Katakana apa ini: カ",
-    options: ["Ka", "Ke", "Ko", "Ku"],
-    answer: "Ka",
-  },
-  {
-    question: "Huruf Katakana apa ini: キ",
-    options: ["Ki", "Sa", "Chi", "Ni"],
-    answer: "Ki",
-  },
-  {
-    question: "Huruf Katakana apa ini: ク",
-    options: ["Ku", "Ka", "Ke", "Ko"],
-    answer: "Ku",
-  },
-  {
-    question: "Huruf Katakana apa ini: ケ",
-    options: ["Ke", "Ka", "Ki", "Ku"],
-    answer: "Ke",
-  },
-  {
-    question: "Huruf Katakana apa ini: コ",
-    options: ["Ko", "Ka", "Ki", "Ku"],
-    answer: "Ko",
-  },
-
-  // Baris SA
-  {
-    question: "Huruf Katakana apa ini: サ",
-    options: ["Sa", "Shi", "Su", "Se"],
-    answer: "Sa",
-  },
-  {
-    question: "Huruf Katakana apa ini: シ",
-    options: ["Shi", "Su", "Se", "So"],
-    answer: "Shi",
-  },
-  {
-    question: "Huruf Katakana apa ini: ス",
-    options: ["Su", "Se", "So", "Shi"],
-    answer: "Su",
-  },
-  {
-    question: "Huruf Katakana apa ini: セ",
-    options: ["Se", "So", "Su", "Sa"],
-    answer: "Se",
-  },
-  {
-    question: "Huruf Katakana apa ini: ソ",
-    options: ["So", "Sa", "Se", "Shi"],
-    answer: "So",
-  },
-
-  // Baris TA
-  {
-    question: "Huruf Katakana apa ini: タ",
-    options: ["Ta", "Te", "To", "Chi"],
-    answer: "Ta",
-  },
-  {
-    question: "Huruf Katakana apa ini: チ",
-    options: ["Chi", "Ta", "Te", "To"],
-    answer: "Chi",
-  },
-  {
-    question: "Huruf Katakana apa ini: ツ",
-    options: ["Tsu", "Ta", "Te", "To"],
-    answer: "Tsu",
-  },
-  {
-    question: "Huruf Katakana apa ini: テ",
-    options: ["Te", "Ta", "To", "Chi"],
-    answer: "Te",
-  },
-  {
-    question: "Huruf Katakana apa ini: ト",
-    options: ["To", "Ta", "Te", "Chi"],
-    answer: "To",
-  },
-
-  // Baris NA
-  {
-    question: "Huruf Katakana apa ini: ナ",
-    options: ["Na", "Ni", "Nu", "Ne"],
-    answer: "Na",
-  },
-  {
-    question: "Huruf Katakana apa ini: ニ",
-    options: ["Ni", "Na", "Nu", "Ne"],
-    answer: "Ni",
-  },
-  {
-    question: "Huruf Katakana apa ini: ヌ",
-    options: ["Nu", "Na", "Ni", "Ne"],
-    answer: "Nu",
   },
   {
     question: "Huruf Katakana apa ini: ネ",
-    options: ["Ne", "Na", "Ni", "Nu"],
+    options: ["Nu", "Ne", "Na", "Ni"],
     answer: "Ne",
   },
   {
-    question: "Huruf Katakana apa ini: ノ",
-    options: ["No", "Na", "Ni", "Nu"],
-    answer: "No",
+    question: "Huruf Katakana apa ini: ソ",
+    options: ["Shi", "Se", "So", "Su"],
+    answer: "So",
   },
-
-  // Baris HA
-  {
-    question: "Huruf Katakana apa ini: ハ",
-    options: ["Ha", "He", "Ho", "Hi"],
-    answer: "Ha",
-  },
-  {
-    question: "Huruf Katakana apa ini: ヒ",
-    options: ["Hi", "Ha", "He", "Ho"],
-    answer: "Hi",
-  },
-  {
-    question: "Huruf Katakana apa ini: フ",
-    options: ["Fu", "Ha", "He", "Ho"],
-    answer: "Fu",
-  },
-  {
-    question: "Huruf Katakana apa ini: ヘ",
-    options: ["He", "Ha", "Hi", "Ho"],
-    answer: "He",
-  },
-  {
-    question: "Huruf Katakana apa ini: ホ",
-    options: ["Ho", "Ha", "Hi", "He"],
-    answer: "Ho",
-  },
-
-  // Baris MA
   {
     question: "Huruf Katakana apa ini: マ",
-    options: ["Ma", "Mi", "Mu", "Me"],
+    options: ["Mu", "Ma", "Mi", "Me"],
     answer: "Ma",
   },
   {
-    question: "Huruf Katakana apa ini: ミ",
-    options: ["Mi", "Ma", "Mu", "Me"],
-    answer: "Mi",
-  },
-  {
-    question: "Huruf Katakana apa ini: ム",
-    options: ["Mu", "Ma", "Mi", "Me"],
-    answer: "Mu",
-  },
-  {
-    question: "Huruf Katakana apa ini: メ",
-    options: ["Me", "Mo", "Mu", "Ma"],
-    answer: "Me",
-  },
-  {
-    question: "Huruf Katakana apa ini: モ",
-    options: ["Mo", "Ma", "Mi", "Me"],
-    answer: "Mo",
-  },
-
-  // Baris YA
-  {
-    question: "Huruf Katakana apa ini: ヤ",
-    options: ["Ya", "Yu", "Yo", "Yi"],
-    answer: "Ya",
-  },
-  {
-    question: "Huruf Katakana apa ini: ユ",
-    options: ["Yu", "Ya", "Yo", "Yi"],
-    answer: "Yu",
-  },
-  {
-    question: "Huruf Katakana apa ini: ヨ",
-    options: ["Yo", "Ya", "Yu", "Yi"],
-    answer: "Yo",
-  },
-
-  // Baris RA
-  {
-    question: "Huruf Katakana apa ini: ラ",
-    options: ["Ra", "Ri", "Ru", "Re"],
-    answer: "Ra",
-  },
-  {
-    question: "Huruf Katakana apa ini: リ",
-    options: ["Ri", "Ra", "Ru", "Re"],
-    answer: "Ri",
-  },
-  {
     question: "Huruf Katakana apa ini: ル",
-    options: ["Ru", "Ra", "Ri", "Re"],
+    options: ["Ri", "Re", "Ru", "Ra"],
     answer: "Ru",
   },
   {
-    question: "Huruf Katakana apa ini: レ",
-    options: ["Re", "Ra", "Ri", "Ru"],
-    answer: "Re",
+    question: "Huruf Katakana apa ini: シ",
+    options: ["Su", "Se", "So", "Shi"],
+    answer: "Shi",
   },
   {
-    question: "Huruf Katakana apa ini: ロ",
-    options: ["Ro", "Ra", "Re", "Ri"],
-    answer: "Ro",
+    question: "Huruf Katakana apa ini: ノ",
+    options: ["Na", "Ni", "No", "Ne"],
+    answer: "No",
+  },
+  {
+    question: "Huruf Katakana apa ini: ケ",
+    options: ["Ka", "Ki", "Ke", "Ku"],
+    answer: "Ke",
+  },
+  {
+    question: "Huruf Katakana apa ini: ツ",
+    options: ["To", "Ta", "Tsu", "Te"],
+    answer: "Tsu",
+  },
+  {
+    question: "Huruf Katakana apa ini: ミ",
+    options: ["Me", "Ma", "Mi", "Mu"],
+    answer: "Mi",
   },
 
-  // Baris WA
-  {
-    question: "Huruf Katakana apa ini: ワ",
-    options: ["Wa", "Wo", "Wi", "We"],
-    answer: "Wa",
-  },
-  {
-    question: "Huruf Katakana apa ini: ヲ",
-    options: ["Wo", "Wa", "Wi", "We"],
-    answer: "Wo",
-  },
-
-  // Baris N
-  {
-    question: "Huruf Katakana apa ini: ン",
-    options: ["N", "Na", "Ne", "No"],
-    answer: "N",
-  },
   // Hari
   {
     question: "Bahasa Jepangnya hari Senin adalah...",
