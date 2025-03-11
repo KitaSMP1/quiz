@@ -191,8 +191,8 @@ const questions = [
   },
   {
     question: "Apa arti dari 自動車 (じどうしゃ) - Jidousha?",
-    options: ["Sepeda motor", "Mobil", "Kereta api", "Pesawat"],
-    answer: "Mobil",
+    options: ["Sepeda motor", "Kendaraan roda empat", "Kereta api", "Pesawat"],
+    answer: "Kendaraan roda empat",
   },
   {
     question: "Apa arti dari 交通 (こうつう) - Koutsuu?",
