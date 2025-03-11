@@ -86,8 +86,8 @@ const questions = [
   },
   {
     question: "Apa arti dari 自動車 (じどうしゃ) - Jidousha?",
-    options: ["Sepeda motor", "Mobil", "Kereta api", "Pesawat"],
-    answer: "Mobil",
+    options: ["Sepeda motor", "Kendaraan roda empat", "Kereta api", "Pesawat"],
+    answer: "Kendaraan roda empat",
   },
   {
     question: "Apa arti dari 交通 (こうつう) - Koutsuu?",
@@ -247,91 +247,130 @@ const questions = [
   {
     question: "Apa arti dari 意見 (いけん) - Iken?",
     options: ["Cerita", "Pendapat", "Bulan", "Bumi"],
-    answer: "Pendapat"
-},
-{
+    answer: "Pendapat",
+  },
+  {
     question: "Apa arti dari 話 (はなし) - Hanashi?",
     options: ["Pendapat", "Cerita", "Bumi", "Bulan"],
-    answer: "Cerita"
-},
-{
+    answer: "Cerita",
+  },
+  {
     question: "Apa arti dari 地球 (ちきゅう) - Chikyuu?",
     options: ["Bulan", "Bintang", "Matahari", "Bumi"],
-    answer: "Bumi"
-},
-{
+    answer: "Bumi",
+  },
+  {
     question: "Apa arti dari 月 (つき) - Tsuki?",
     options: ["Bumi", "Planet", "Bulan", "Bintang"],
-    answer: "Bulan"
-},
-{
+    answer: "Bulan",
+  },
+  {
     question: "Apa arti dari 最近 (さいきん) - Saikin?",
     options: ["Kemarin", "Besok", "Lusa", "Akhir-akhir ini"],
-    answer: "Akhir-akhir ini"
-},
-{
+    answer: "Akhir-akhir ini",
+  },
+  {
     question: "Apa arti dari たぶん - Tabun?",
     options: ["Pasti", "Mungkin, barangkali", "Tidak mungkin", "Selalu"],
-    answer: "Mungkin, barangkali"
-},
-{
+    answer: "Mungkin, barangkali",
+  },
+  {
     question: "Apa arti dari きっと - Kitto?",
     options: ["Mungkin", "Tidak mungkin", "Pasti", "Kadang-kadang"],
-    answer: "Pasti"
-},
-{
+    answer: "Pasti",
+  },
+  {
     question: "Apa arti dari 本当に (ほんとうに) - Hontou ni?",
     options: ["Mungkin", "Betul-betul", "Tidak mungkin", "Kadang-kadang"],
-    answer: "Betul-betul"
-},
-{
+    answer: "Betul-betul",
+  },
+  {
     question: "Apa arti dari そんなに - Sonna ni (diikuti negatif)?",
     options: ["Sangat", "Tidak begitu", "Sedikit", "Selalu"],
-    answer: "Tidak begitu"
-},
-{
+    answer: "Tidak begitu",
+  },
+  {
     question: "Apa arti dari 〜について - Nitsuite?",
     options: ["Karena", "Tentang, mengenai", "Dengan", "Tanpa"],
-    answer: "Tentang, mengenai"
-},
-{
-    question: "Apa arti dari 久しぶりですね。 (ひさしぶりですね。) - Hisashiburi desu ne.?",
-    options: ["Selamat pagi", "Selamat siang", "Selamat malam", "Sudah lama tidak bertemu ya"],
-    answer: "Sudah lama tidak bertemu ya"
-},
-{
-    question: "Apa arti dari 〜でも飲みませんか。 (〜でものみませんか。) - ~ demo nomimasen ka.?",
-    options: ["Mari makan", "Mari pergi", "Bagaimana kalau kita minum, atau apa saja?", "Mari belajar"],
-    answer: "Bagaimana kalau kita minum, atau apa saja?"
-},
-{
+    answer: "Tentang, mengenai",
+  },
+  {
+    question:
+      "Apa arti dari 久しぶりですね。 (ひさしぶりですね。) - Hisashiburi desu ne.?",
+    options: [
+      "Selamat pagi",
+      "Selamat siang",
+      "Selamat malam",
+      "Sudah lama tidak bertemu ya",
+    ],
+    answer: "Sudah lama tidak bertemu ya",
+  },
+  {
+    question:
+      "Apa arti dari 〜でも飲みませんか。 (〜でものみませんか。) - ~ demo nomimasen ka.?",
+    options: [
+      "Mari makan",
+      "Mari pergi",
+      "Bagaimana kalau kita minum, atau apa saja?",
+      "Mari belajar",
+    ],
+    answer: "Bagaimana kalau kita minum, atau apa saja?",
+  },
+  {
     question: "Apa arti dari もちろん - Mochiron?",
     options: ["Mungkin", "Tidak mungkin", "Tentu saja", "Kadang-kadang"],
-    answer: "Tentu saja"
-},
-{
+    answer: "Tentu saja",
+  },
+  {
     question: "Apa arti dari 着ます (きます) - Kimasu?",
-    options: ["Memakai (sepatu)", "Memakai (topi)", "Memakai (kemeja)", "Memakai (kaca mata)"],
+    options: [
+      "Memakai (sepatu)",
+      "Memakai (topi)",
+      "Memakai (kemeja)",
+      "Memakai (kaca mata)",
+    ],
     answer: "Memakai (kemeja)",
   },
   {
     question: "Apa arti dari はきます - Hakimasu?",
-    options: ["Memakai (kemeja)", "Memakai (sepatu, celana)", "Memakai (topi)", "Memakai (dasi)"],
+    options: [
+      "Memakai (kemeja)",
+      "Memakai (sepatu, celana)",
+      "Memakai (topi)",
+      "Memakai (dasi)",
+    ],
     answer: "Memakai (sepatu, celana)",
   },
   {
     question: "Apa arti dari かぶります - Kaburimasu?",
-    options: ["Memakai (kemeja)", "Memakai (sepatu)", "Memakai (topi)", "Memakai (kaca mata)"],
+    options: [
+      "Memakai (kemeja)",
+      "Memakai (sepatu)",
+      "Memakai (topi)",
+      "Memakai (kaca mata)",
+    ],
     answer: "Memakai (topi)",
   },
   {
-    question: "Apa arti dari かけます [眼鏡を〜] (めがねを〜) - Kakemasu [Megane wo ~]?",
-    options: ["Memakai (kemeja)", "Memakai (sepatu)", "Memakai (topi)", "Memakai (kaca mata)"],
+    question:
+      "Apa arti dari かけます [眼鏡を〜] (めがねを〜) - Kakemasu [Megane wo ~]?",
+    options: [
+      "Memakai (kemeja)",
+      "Memakai (sepatu)",
+      "Memakai (topi)",
+      "Memakai (kaca mata)",
+    ],
     answer: "Memakai (kaca mata)",
   },
   {
-    question: "Apa arti dari します [ネクタイを〜] (ネクタイを〜) - Shimasu [Nekutai wo ~]?",
-    options: ["Memakai (kemeja)", "Memakai (sepatu)", "Memakai (topi)", "Memakai (dasi)"],
+    question:
+      "Apa arti dari します [ネクタイを〜] (ネクタイを〜) - Shimasu [Nekutai wo ~]?",
+    options: [
+      "Memakai (kemeja)",
+      "Memakai (sepatu)",
+      "Memakai (topi)",
+      "Memakai (dasi)",
+    ],
     answer: "Memakai (dasi)",
   },
   {
@@ -356,7 +395,12 @@ const questions = [
   },
   {
     question: "Apa arti dari スーツ - Suutsu?",
-    options: ["Pakaian olahraga", "Pakaian santai", "Pakaian setelan", "Pakaian tidur"],
+    options: [
+      "Pakaian olahraga",
+      "Pakaian santai",
+      "Pakaian setelan",
+      "Pakaian tidur",
+    ],
     answer: "Pakaian setelan",
   },
   {
@@ -402,34 +446,50 @@ const questions = [
   {
     question: "Apa arti dari おめでとう (ございます) - Omedetou (gozaimasu)?",
     options: ["Terima kasih", "Selamat", "Maaf", "Sampai jumpa"],
-    answer: "Selamat"
-},
-{
-    question: "Apa arti dari お探しですか。 (おさがしですか。) - Osagashi desu ka.?",
-    options: ["Siapa nama Anda?", "Apa kabar?", "Mencari apa?", "Di mana Anda tinggal?"],
-    answer: "Mencari apa?"
-},
-{
+    answer: "Selamat",
+  },
+  {
+    question:
+      "Apa arti dari お探しですか。 (おさがしですか。) - Osagashi desu ka.?",
+    options: [
+      "Siapa nama Anda?",
+      "Apa kabar?",
+      "Mencari apa?",
+      "Di mana Anda tinggal?",
+    ],
+    answer: "Mencari apa?",
+  },
+  {
     question: "Apa arti dari では - Dewa?",
     options: ["Kemudian", "Kalau begitu", "Namun", "Meskipun"],
-    answer: "Kalau begitu"
-},
-{
+    answer: "Kalau begitu",
+  },
+  {
     question: "Apa arti dari こちら - Kochira?",
     options: ["Itu", "Ini (sopan)", "Di sana", "Di sini"],
-    answer: "Ini (sopan)"
-},
-{
+    answer: "Ini (sopan)",
+  },
+  {
     question: "Apa arti dari 家賃 (やちん) - Yachin?",
-    options: ["Biaya makan", "Biaya transportasi", "Biaya sewa rumah", "Biaya pendidikan"],
-    answer: "Biaya sewa rumah"
-},
-{
+    options: [
+      "Biaya makan",
+      "Biaya transportasi",
+      "Biaya sewa rumah",
+      "Biaya pendidikan",
+    ],
+    answer: "Biaya sewa rumah",
+  },
+  {
     question: "Apa arti dari ダイニングキッチン - Dining Kitchen?",
-    options: ["Ruang tamu", "Kamar tidur", "Ruang makan dengan dapur", "Kamar mandi"],
-    answer: "Ruang makan dengan dapur"
-},
-{
+    options: [
+      "Ruang tamu",
+      "Kamar tidur",
+      "Ruang makan dengan dapur",
+      "Kamar mandi",
+    ],
+    answer: "Ruang makan dengan dapur",
+  },
+  {
     question: "Apa arti dari スーツ - Suutsu?",
     options: ["Terusan", "Pakaian setelan", "Rok", "Blus"],
     answer: "Pakaian setelan",
@@ -491,17 +551,32 @@ const questions = [
   },
   {
     question: "Apa arti dari ハイヒール - Haihiiru?",
-    options: ["Sepatu bot", "Sepatu olahraga", "Sepatu berhak tinggi", "Sandal"],
+    options: [
+      "Sepatu bot",
+      "Sepatu olahraga",
+      "Sepatu berhak tinggi",
+      "Sandal",
+    ],
     answer: "Sepatu berhak tinggi",
   },
   {
     question: "Apa arti dari ブーツ - Buutsu?",
-    options: ["Sepatu bot", "Sepatu olahraga", "Sepatu berhak tinggi", "Sandal"],
+    options: [
+      "Sepatu bot",
+      "Sepatu olahraga",
+      "Sepatu berhak tinggi",
+      "Sandal",
+    ],
     answer: "Sepatu bot",
   },
   {
     question: "Apa arti dari 運動靴 (うんどうぐつ) - Undougutsu?",
-    options: ["Sepatu bot", "Sepatu olahraga", "Sepatu berhak tinggi", "Sandal"],
+    options: [
+      "Sepatu bot",
+      "Sepatu olahraga",
+      "Sepatu berhak tinggi",
+      "Sandal",
+    ],
     answer: "Sepatu olahraga",
   },
   {
@@ -526,13 +601,623 @@ const questions = [
   },
   {
     question: "Apa arti dari ぞうり - Zouri?",
-    options: ["Kaos kaki tradisional", "Sandal tradisional", "Sepatu bot", "Sepatu olahraga"],
+    options: [
+      "Kaos kaki tradisional",
+      "Sandal tradisional",
+      "Sepatu bot",
+      "Sepatu olahraga",
+    ],
     answer: "Sandal tradisional",
   },
   {
     question: "Apa arti dari たび - Tabi?",
-    options: ["Kaos kaki tradisional", "Sandal tradisional", "Sepatu bot", "Sepatu olahraga"],
+    options: [
+      "Kaos kaki tradisional",
+      "Sandal tradisional",
+      "Sepatu bot",
+      "Sepatu olahraga",
+    ],
     answer: "Kaos kaki tradisional",
+  },
+  // Baris A I U E O
+  {
+    question: "Huruf Hiragana apa ini: あ",
+    options: ["A", "I", "U", "E"],
+    answer: "A",
+  },
+  {
+    question: "Huruf Hiragana apa ini: い",
+    options: ["I", "A", "U", "E"],
+    answer: "I",
+  },
+  {
+    question: "Huruf Hiragana apa ini: う",
+    options: ["U", "A", "I", "E"],
+    answer: "U",
+  },
+  {
+    question: "Huruf Hiragana apa ini: え",
+    options: ["E", "A", "I", "U"],
+    answer: "E",
+  },
+  {
+    question: "Huruf Hiragana apa ini: お",
+    options: ["O", "A", "I", "U"],
+    answer: "O",
+  },
+
+  // Baris KA
+  {
+    question: "Huruf Hiragana apa ini: か",
+    options: ["Ka", "Ke", "Ko", "Ku"],
+    answer: "Ka",
+  },
+  {
+    question: "Huruf Hiragana apa ini: き",
+    options: ["Ki", "Sa", "Chi", "Ni"],
+    answer: "Ki",
+  },
+  {
+    question: "Huruf Hiragana apa ini: く",
+    options: ["Ku", "Ka", "Ki", "Ke"],
+    answer: "Ku",
+  },
+  {
+    question: "Huruf Hiragana apa ini: け",
+    options: ["Ke", "Ka", "Ki", "Ku"],
+    answer: "Ke",
+  },
+  {
+    question: "Huruf Hiragana apa ini: こ",
+    options: ["Ko", "Ka", "Ki", "Ku"],
+    answer: "Ko",
+  },
+
+  // Baris SA
+  {
+    question: "Huruf Hiragana apa ini: さ",
+    options: ["Sa", "Shi", "Su", "Se"],
+    answer: "Sa",
+  },
+  {
+    question: "Huruf Hiragana apa ini: し",
+    options: ["Shi", "Su", "Se", "So"],
+    answer: "Shi",
+  },
+  {
+    question: "Huruf Hiragana apa ini: す",
+    options: ["Su", "Se", "So", "Shi"],
+    answer: "Su",
+  },
+  {
+    question: "Huruf Hiragana apa ini: せ",
+    options: ["Se", "So", "Su", "Sa"],
+    answer: "Se",
+  },
+  {
+    question: "Huruf Hiragana apa ini: そ",
+    options: ["So", "Sa", "Se", "Shi"],
+    answer: "So",
+  },
+
+  // Baris TA
+  {
+    question: "Huruf Hiragana apa ini: た",
+    options: ["Ta", "Te", "To", "Chi"],
+    answer: "Ta",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ち",
+    options: ["Chi", "Ta", "Te", "To"],
+    answer: "Chi",
+  },
+  {
+    question: "Huruf Hiragana apa ini: つ",
+    options: ["Tsu", "Ta", "Te", "To"],
+    answer: "Tsu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: て",
+    options: ["Te", "Ta", "To", "Chi"],
+    answer: "Te",
+  },
+  {
+    question: "Huruf Hiragana apa ini: と",
+    options: ["To", "Ta", "Te", "Chi"],
+    answer: "To",
+  },
+
+  // Baris NA
+  {
+    question: "Huruf Hiragana apa ini: な",
+    options: ["Na", "Ni", "Nu", "Ne"],
+    answer: "Na",
+  },
+  {
+    question: "Huruf Hiragana apa ini: に",
+    options: ["Ni", "Na", "Nu", "Ne"],
+    answer: "Ni",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ぬ",
+    options: ["Nu", "Na", "Ni", "Ne"],
+    answer: "Nu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ね",
+    options: ["Ne", "Na", "Ni", "Nu"],
+    answer: "Ne",
+  },
+  {
+    question: "Huruf Hiragana apa ini: の",
+    options: ["No", "Na", "Ni", "Nu"],
+    answer: "No",
+  },
+
+  // Baris HA
+  {
+    question: "Huruf Hiragana apa ini: は",
+    options: ["Ha", "He", "Ho", "Hi"],
+    answer: "Ha",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ひ",
+    options: ["Hi", "Ha", "He", "Ho"],
+    answer: "Hi",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ふ",
+    options: ["Fu", "Ha", "He", "Ho"],
+    answer: "Fu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: へ",
+    options: ["He", "Ha", "Hi", "Ho"],
+    answer: "He",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ほ",
+    options: ["Ho", "Ha", "Hi", "He"],
+    answer: "Ho",
+  },
+
+  // Baris MA
+  {
+    question: "Huruf Hiragana apa ini: ま",
+    options: ["Ma", "Mi", "Mu", "Me"],
+    answer: "Ma",
+  },
+  {
+    question: "Huruf Hiragana apa ini: み",
+    options: ["Mi", "Ma", "Mu", "Me"],
+    answer: "Mi",
+  },
+  {
+    question: "Huruf Hiragana apa ini: む",
+    options: ["Mu", "Ma", "Mi", "Me"],
+    answer: "Mu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: め",
+    options: ["Me", "Mo", "Mu", "Ma"],
+    answer: "Me",
+  },
+  {
+    question: "Huruf Hiragana apa ini: も",
+    options: ["Mo", "Ma", "Mi", "Me"],
+    answer: "Mo",
+  },
+
+  // Baris YA
+  {
+    question: "Huruf Hiragana apa ini: や",
+    options: ["Ya", "Yu", "Yo", "Yi"],
+    answer: "Ya",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ゆ",
+    options: ["Yu", "Ya", "Yo", "Yi"],
+    answer: "Yu",
+  },
+  {
+    question: "Huruf Hiragana apa ini: よ",
+    options: ["Yo", "Ya", "Yu", "Yi"],
+    answer: "Yo",
+  },
+
+  // Baris RA
+  {
+    question: "Huruf Hiragana apa ini: ら",
+    options: ["Ra", "Ri", "Ru", "Re"],
+    answer: "Ra",
+  },
+  {
+    question: "Huruf Hiragana apa ini: り",
+    options: ["Ri", "Ra", "Ru", "Re"],
+    answer: "Ri",
+  },
+  {
+    question: "Huruf Hiragana apa ini: る",
+    options: ["Ru", "Ra", "Ri", "Re"],
+    answer: "Ru",
+  },
+  {
+    question: "Huruf Hiragana apa ini: れ",
+    options: ["Re", "Ra", "Ri", "Ru"],
+    answer: "Re",
+  },
+  {
+    question: "Huruf Hiragana apa ini: ろ",
+    options: ["Ro", "Ra", "Re", "Ri"],
+    answer: "Ro",
+  },
+
+  // Baris WA
+  {
+    question: "Huruf Hiragana apa ini: わ",
+    options: ["Wa", "Wo", "Wi", "We"],
+    answer: "Wa",
+  },
+  {
+    question: "Huruf Hiragana apa ini: を",
+    options: ["Wo", "Wa", "Wi", "We"],
+    answer: "Wo",
+  },
+
+  // Baris N
+  {
+    question: "Huruf Hiragana apa ini: ん",
+    options: ["N", "Na", "Ne", "No"],
+    answer: "N",
+  },
+  // Baris A I U E O
+  {
+    question: "Huruf Katakana apa ini: ア",
+    options: ["A", "I", "U", "E"],
+    answer: "A",
+  },
+  {
+    question: "Huruf Katakana apa ini: イ",
+    options: ["I", "A", "U", "E"],
+    answer: "I",
+  },
+  {
+    question: "Huruf Katakana apa ini: ウ",
+    options: ["U", "A", "I", "E"],
+    answer: "U",
+  },
+  {
+    question: "Huruf Katakana apa ini: エ",
+    options: ["E", "A", "I", "U"],
+    answer: "E",
+  },
+  {
+    question: "Huruf Katakana apa ini: オ",
+    options: ["O", "A", "I", "U"],
+    answer: "O",
+  },
+
+  // Baris KA
+  {
+    question: "Huruf Katakana apa ini: カ",
+    options: ["Ka", "Ke", "Ko", "Ku"],
+    answer: "Ka",
+  },
+  {
+    question: "Huruf Katakana apa ini: キ",
+    options: ["Ki", "Sa", "Chi", "Ni"],
+    answer: "Ki",
+  },
+  {
+    question: "Huruf Katakana apa ini: ク",
+    options: ["Ku", "Ka", "Ke", "Ko"],
+    answer: "Ku",
+  },
+  {
+    question: "Huruf Katakana apa ini: ケ",
+    options: ["Ke", "Ka", "Ki", "Ku"],
+    answer: "Ke",
+  },
+  {
+    question: "Huruf Katakana apa ini: コ",
+    options: ["Ko", "Ka", "Ki", "Ku"],
+    answer: "Ko",
+  },
+
+  // Baris SA
+  {
+    question: "Huruf Katakana apa ini: サ",
+    options: ["Sa", "Shi", "Su", "Se"],
+    answer: "Sa",
+  },
+  {
+    question: "Huruf Katakana apa ini: シ",
+    options: ["Shi", "Su", "Se", "So"],
+    answer: "Shi",
+  },
+  {
+    question: "Huruf Katakana apa ini: ス",
+    options: ["Su", "Se", "So", "Shi"],
+    answer: "Su",
+  },
+  {
+    question: "Huruf Katakana apa ini: セ",
+    options: ["Se", "So", "Su", "Sa"],
+    answer: "Se",
+  },
+  {
+    question: "Huruf Katakana apa ini: ソ",
+    options: ["So", "Sa", "Se", "Shi"],
+    answer: "So",
+  },
+
+  // Baris TA
+  {
+    question: "Huruf Katakana apa ini: タ",
+    options: ["Ta", "Te", "To", "Chi"],
+    answer: "Ta",
+  },
+  {
+    question: "Huruf Katakana apa ini: チ",
+    options: ["Chi", "Ta", "Te", "To"],
+    answer: "Chi",
+  },
+  {
+    question: "Huruf Katakana apa ini: ツ",
+    options: ["Tsu", "Ta", "Te", "To"],
+    answer: "Tsu",
+  },
+  {
+    question: "Huruf Katakana apa ini: テ",
+    options: ["Te", "Ta", "To", "Chi"],
+    answer: "Te",
+  },
+  {
+    question: "Huruf Katakana apa ini: ト",
+    options: ["To", "Ta", "Te", "Chi"],
+    answer: "To",
+  },
+
+  // Baris NA
+  {
+    question: "Huruf Katakana apa ini: ナ",
+    options: ["Na", "Ni", "Nu", "Ne"],
+    answer: "Na",
+  },
+  {
+    question: "Huruf Katakana apa ini: ニ",
+    options: ["Ni", "Na", "Nu", "Ne"],
+    answer: "Ni",
+  },
+  {
+    question: "Huruf Katakana apa ini: ヌ",
+    options: ["Nu", "Na", "Ni", "Ne"],
+    answer: "Nu",
+  },
+  {
+    question: "Huruf Katakana apa ini: ネ",
+    options: ["Ne", "Na", "Ni", "Nu"],
+    answer: "Ne",
+  },
+  {
+    question: "Huruf Katakana apa ini: ノ",
+    options: ["No", "Na", "Ni", "Nu"],
+    answer: "No",
+  },
+
+  // Baris HA
+  {
+    question: "Huruf Katakana apa ini: ハ",
+    options: ["Ha", "He", "Ho", "Hi"],
+    answer: "Ha",
+  },
+  {
+    question: "Huruf Katakana apa ini: ヒ",
+    options: ["Hi", "Ha", "He", "Ho"],
+    answer: "Hi",
+  },
+  {
+    question: "Huruf Katakana apa ini: フ",
+    options: ["Fu", "Ha", "He", "Ho"],
+    answer: "Fu",
+  },
+  {
+    question: "Huruf Katakana apa ini: ヘ",
+    options: ["He", "Ha", "Hi", "Ho"],
+    answer: "He",
+  },
+  {
+    question: "Huruf Katakana apa ini: ホ",
+    options: ["Ho", "Ha", "Hi", "He"],
+    answer: "Ho",
+  },
+
+  // Baris MA
+  {
+    question: "Huruf Katakana apa ini: マ",
+    options: ["Ma", "Mi", "Mu", "Me"],
+    answer: "Ma",
+  },
+  {
+    question: "Huruf Katakana apa ini: ミ",
+    options: ["Mi", "Ma", "Mu", "Me"],
+    answer: "Mi",
+  },
+  {
+    question: "Huruf Katakana apa ini: ム",
+    options: ["Mu", "Ma", "Mi", "Me"],
+    answer: "Mu",
+  },
+  {
+    question: "Huruf Katakana apa ini: メ",
+    options: ["Me", "Mo", "Mu", "Ma"],
+    answer: "Me",
+  },
+  {
+    question: "Huruf Katakana apa ini: モ",
+    options: ["Mo", "Ma", "Mi", "Me"],
+    answer: "Mo",
+  },
+
+  // Baris YA
+  {
+    question: "Huruf Katakana apa ini: ヤ",
+    options: ["Ya", "Yu", "Yo", "Yi"],
+    answer: "Ya",
+  },
+  {
+    question: "Huruf Katakana apa ini: ユ",
+    options: ["Yu", "Ya", "Yo", "Yi"],
+    answer: "Yu",
+  },
+  {
+    question: "Huruf Katakana apa ini: ヨ",
+    options: ["Yo", "Ya", "Yu", "Yi"],
+    answer: "Yo",
+  },
+
+  // Baris RA
+  {
+    question: "Huruf Katakana apa ini: ラ",
+    options: ["Ra", "Ri", "Ru", "Re"],
+    answer: "Ra",
+  },
+  {
+    question: "Huruf Katakana apa ini: リ",
+    options: ["Ri", "Ra", "Ru", "Re"],
+    answer: "Ri",
+  },
+  {
+    question: "Huruf Katakana apa ini: ル",
+    options: ["Ru", "Ra", "Ri", "Re"],
+    answer: "Ru",
+  },
+  {
+    question: "Huruf Katakana apa ini: レ",
+    options: ["Re", "Ra", "Ri", "Ru"],
+    answer: "Re",
+  },
+  {
+    question: "Huruf Katakana apa ini: ロ",
+    options: ["Ro", "Ra", "Re", "Ri"],
+    answer: "Ro",
+  },
+
+  // Baris WA
+  {
+    question: "Huruf Katakana apa ini: ワ",
+    options: ["Wa", "Wo", "Wi", "We"],
+    answer: "Wa",
+  },
+  {
+    question: "Huruf Katakana apa ini: ヲ",
+    options: ["Wo", "Wa", "Wi", "We"],
+    answer: "Wo",
+  },
+
+  // Baris N
+  {
+    question: "Huruf Katakana apa ini: ン",
+    options: ["N", "Na", "Ne", "No"],
+    answer: "N",
+  },
+  // Hari
+  {
+    question: "Bahasa Jepangnya hari Senin adalah...",
+    options: ["Kayoubi", "Getsuyoubi", "Suiyoubi", "Nichiyoubi"],
+    answer: "Getsuyoubi",
+  },
+  {
+    question: "Bahasa Jepangnya hari Selasa adalah...",
+    options: ["Kayoubi", "Getsuyoubi", "Suiyoubi", "Nichiyoubi"],
+    answer: "Kayoubi",
+  },
+  {
+    question: "Bahasa Jepangnya hari Rabu adalah...",
+    options: ["Kayoubi", "Getsuyoubi", "Suiyoubi", "Nichiyoubi"],
+    answer: "Suiyoubi",
+  },
+  {
+    question: "Bahasa Jepangnya hari Kamis adalah...",
+    options: ["Mokuyoubi", "Getsuyoubi", "Suiyoubi", "Nichiyoubi"],
+    answer: "Mokuyoubi",
+  },
+  {
+    question: "Bahasa Jepangnya hari Jumat adalah...",
+    options: ["Kinyoubi", "Getsuyoubi", "Suiyoubi", "Nichiyoubi"],
+    answer: "Kinyoubi",
+  },
+  {
+    question: "Bahasa Jepangnya hari Sabtu adalah...",
+    options: ["Doyoubi", "Getsuyoubi", "Suiyoubi", "Nichiyoubi"],
+    answer: "Doyoubi",
+  },
+  {
+    question: "Bahasa Jepangnya hari Minggu adalah...",
+    options: ["Nichiyoubi", "Getsuyoubi", "Suiyoubi", "Kayoubi"],
+    answer: "Nichiyoubi",
+  },
+
+  // Bulan
+  {
+    question: "Bahasa Jepangnya bulan Januari adalah...",
+    options: ["Ichigatsu", "Nigatsu", "Sangatsu", "Shigatsu"],
+    answer: "Ichigatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan Februari adalah...",
+    options: ["Nigatsu", "Ichigatsu", "Sangatsu", "Shigatsu"],
+    answer: "Nigatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan Maret adalah...",
+    options: ["Sangatsu", "Ichigatsu", "Nigatsu", "Shigatsu"],
+    answer: "Sangatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan April adalah...",
+    options: ["Shigatsu", "Ichigatsu", "Nigatsu", "Sangatsu"],
+    answer: "Shigatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan Mei adalah...",
+    options: ["Gogatsu", "Ichigatsu", "Nigatsu", "Sangatsu"],
+    answer: "Gogatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan Juni adalah...",
+    options: ["Rokugatsu", "Ichigatsu", "Nigatsu", "Sangatsu"],
+    answer: "Rokugatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan Juli adalah...",
+    options: ["Shichigatsu", "Ichigatsu", "Nigatsu", "Sangatsu"],
+    answer: "Shichigatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan Agustus adalah...",
+    options: ["Hachigatsu", "Ichigatsu", "Nigatsu", "Sangatsu"],
+    answer: "Hachigatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan September adalah...",
+    options: ["Kugatsu", "Ichigatsu", "Nigatsu", "Sangatsu"],
+    answer: "Kugatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan Oktober adalah...",
+    options: ["Juugatsu", "Ichigatsu", "Nigatsu", "Sangatsu"],
+    answer: "Juugatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan November adalah...",
+    options: ["Juuichigatsu", "Ichigatsu", "Nigatsu", "Sangatsu"],
+    answer: "Juuichigatsu",
+  },
+  {
+    question: "Bahasa Jepangnya bulan Desember adalah...",
+    options: ["Juunigatsu", "Ichigatsu", "Nigatsu", "Sangatsu"],
+    answer: "Juunigatsu",
   },
 ];
 
