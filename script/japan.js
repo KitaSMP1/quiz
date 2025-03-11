@@ -322,7 +322,7 @@ const questions = [
     answer: "Tentu saja",
   },
   {
-    question: "Apa arti dari 着ます (きます) - Kimasu?",
+    question: "Apa arti dari 着ます (きます) - Kimasu (シャツを着ます) - shatsu wo kimasu?",
     options: [
       "Memakai (sepatu)",
       "Memakai (topi)",
