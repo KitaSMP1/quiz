@@ -123,7 +123,7 @@ const questions = [
   {
     question: "Teknologi yang memungkinkan dua perangkat saling terhubung tanpa menggunakan kabel serta dapat menembus tembok adalah...",
     options: ["gelombang radio", "gelombang mikro", "gelombang makro", "bluetooth", "inframerah"],
-    answer: "gelombang radio",
+    answer: "bluetooth",
   },
   {
     question: "Keuntungan menggunakan router dalam segmentasi jaringan adalah...",
