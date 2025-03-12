@@ -241,7 +241,7 @@ const questions = [
   {
     question: "Layanan VoIP di mana pengguna menggunakan komputer sebagai alat komunikasi adalah komunikasi kelas.....",
     options: ["1", "2-1", "2-2", "3", "3-1"],
-    answer: "2-1",
+    answer: "3",
   },
   {
     question: "Berikut merupakan fungsi PBX, kecuali...",
@@ -291,7 +291,7 @@ const questions = [
   {
     question: "Berikut yang merupakan langkah tepat untuk mengatasi kualitas audio yang buruk adalah...",
     options: ["mengecilkan suara mikrofon", "memeriksa kondisi kelayakan hardware", "melakukan konfigurasi QoS pada router", "mengubah codec sistem", "menjauhkan perangkat dari peralatan elektronik lain"],
-    answer: "melakukan konfigurasi QoS pada router",
+    answer: "memeriksa kondisi kelayakan hardware",
   },
   {
     question: "Protokol yang digunakan pada VoIP untuk mengirim audio streaming yang berlangsung terus-menerus dan lebih mementingkan kecepatan pengiriman data agar tiba di tujuan tanpa memperhatikan adanya paket yang hilang walaupun mencapai 50% dari jumlah paket yang dikirimkan adalah...",
