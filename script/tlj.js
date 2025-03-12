@@ -348,7 +348,7 @@ const questions = [
 {
   question: "Teknologi yang digunakan untuk mengatur lalu lintas layanan pada jaringan FTTH disebut...",
   options: ["Optical Line Terminal", "PON", "G-PON", "Digital Cross Connect System", "Optical Network Unit"],
-  answer: "PON",
+  answer: "G-PON",
 },
 {
   question: "Arsitektur jaringan FTTH Optical Distribution Cabinet memiliki fungsi, yaitu...",
