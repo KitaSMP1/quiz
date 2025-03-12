@@ -191,8 +191,8 @@ const questions = [
   },
   {
     question: "Apa arti dari 自動車 (じどうしゃ) - Jidousha?",
-    options: ["Sepeda motor", "Kendaraan roda empat", "Kereta api", "Pesawat"],
-    answer: "Kendaraan roda empat",
+    options: ["Sepeda motor", "Mobil", "Kereta api", "Pesawat"],
+    answer: "Mobil",
   },
   {
     question: "Apa arti dari 交通 (こうつう) - Koutsuu?",
@@ -322,7 +322,7 @@ const questions = [
     answer: "Tentu saja",
   },
   {
-    question: "Apa arti dari 着ます (きます) - Kimasu (シャツを着ます) - shatsu wo kimasu?",
+    question: "Apa arti dari 着ます (きます) - Kimasu?",
     options: [
       "Memakai (sepatu)",
       "Memakai (topi)",
@@ -1228,7 +1228,8 @@ let currentSong = "lagu1.mp3"; // Lagu default
 const songList = [
   { title: "DJ I Don't Know why", file: "/lagu/lagu1.mp3" },
   { title: "DJ Nasty Girl", file: "/lagu/lagu2.mp3" },
-  { title: "Blue yungkai bejir", file: "/lagu/lagu3.mp3" },
+  { title: "Blue yungkai bejir", file: "/lagu/lagu3.mp3" }, 
+  { title: "Radio KitaSMP",  file: "https://stream.zeno.fm/yfq95ezz4ywuv"},
 ];
 
 // Bikin modal popup untuk pemutar lagu (awalannya disembunyikan)
