@@ -286,7 +286,7 @@ const questions = [
   {
     question: "Kepanjangan PSTN berikut yang tepat adalah...",
     options: ["Private Server Telecommunication Networking", "Private Server Telephone Network", "Private Switched Telephone Network", "Public Switching Telephone Network", "Public Switched Telephone Network"],
-    answer: "Public Switching Telephone Network",
+    answer: "Public Switched Telephone Network",
   },
   {
     question: "Berikut yang merupakan langkah tepat untuk mengatasi kualitas audio yang buruk adalah...",
